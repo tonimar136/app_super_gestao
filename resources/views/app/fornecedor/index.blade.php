@@ -14,7 +14,7 @@
 @if (count($fornecedores) > 0 && count($fornecedores) < 10)
     <h3>Existem alguns fornecedores cadastrados
     @elseif(count($fornecedores) > 10)
-        <h3>Existem vários fornecedores cadastrados</h3>
+        <h3>Existem vários Fornecedores cadastrados</h3>
     @else
-        <h3>Ainda não existem fornecedores cadastrados</h3>
+        <h3>Ainda não existem Fornecedores cadastrados</h3>
 @endif
